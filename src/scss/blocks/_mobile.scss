@@ -1,0 +1,96 @@
+.mobile {
+   min-height: 864px;
+   padding: 46px 0 80px;
+   background: url("../img/mobile-app/mobile_bg.png") center center/cover no-repeat;
+}
+
+.mobile_title {
+   margin-bottom: 1px;
+}
+
+.mobile-subtitle {
+   font-weight: 500;
+   font-size: 17px;
+   line-height: 21px;
+   color: #222222;
+   text-align: center;
+}
+.mobile_item {
+   position: relative;
+   width: 320px;
+   height: 280px;
+   margin-bottom: 19px;
+}
+.mobile_item_subtitle {
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 31px;
+   text-transform: uppercase;
+   color: #ffffff;
+   text-align: center;
+}
+.mobile_item_plus {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   bottom: 34px;
+   left: 46%;
+   width: 26px;
+   height: 26px;
+   background: #000000;
+   border-radius: 50%;
+   cursor: pointer;
+   &::before {
+      content: "";
+      display: block;
+      width: 14px;
+      height: 2px;
+      background-color: $color_blue;
+      transition: 0.3s all;
+   }
+   &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      top: 25%;
+      left: 47%;
+      width: 2px;
+      height: 14px;
+      background-color: $color_blue;
+      transition: 0.3s all;
+   }
+   &:hover {
+      &::before,
+      &::after {
+         background-color: #ff5656;
+      }
+   }
+}
+.mobile_item_1 {
+   background: url("../img/mobile-app/card_1.png");
+   padding-top: 82px;
+}
+.mobile_item_2 {
+   background: url("../img/mobile-app/card_2.png");
+   padding-top: 88px;
+}
+.mobile_item_3 {
+   background: url("../img/mobile-app/card_3.png");
+   padding-top: 88px;
+}
+.mobile_item_4 {
+   background: url("../img/mobile-app/card_4.png");
+   padding-top: 88px;
+}
+.mobile_item_5 {
+   background: url("../img/mobile-app/card_5.png");
+   padding-top: 88px;
+}
+.mobile_item_6 {
+   background: url("../img/mobile-app/card_6.png");
+   padding-top: 83px;
+}
+.mobile_row {
+   margin-top: 30px;
+}

@@ -1,0 +1,42 @@
+.choice {
+   position: relative;
+   min-height: 898px;
+   padding: 60px 0 137px;
+   background: linear-gradient(#000 55%, #fff 45%);
+}
+.choice_title {
+   color: #fff;
+   margin-bottom: 1px;
+}
+.choice_subtitle {
+   margin-bottom: 54px;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 21px;
+   text-align: center;
+   color: #fff;
+}
+.choice_label {
+   margin: 0 auto 26px;
+   height: 24px;
+   width: 112px;
+   padding: 5px 12px;
+   background-color: #fff;
+   color: #000000;
+   font-size: 11px;
+   font-weight: 500;
+   text-transform: uppercase;
+   text-align: center;
+}
+
+.choice_img {
+   text-align: center;
+}
+.bottom-image-text {
+   font-weight: 300;
+   font-size: 17px;
+   // line-height: 24px;
+   margin-bottom: 4px;
+   color: #222222;
+   text-align: center;
+}

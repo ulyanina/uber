@@ -1,0 +1,34 @@
+.world {
+   position: relative;
+   min-height: 720px;
+   padding: 48px 0px 45px 0px;
+   background: url("../img/world/world_bg.png");
+}
+
+.world-label {
+   background-color: #fff;
+   color: #070716;
+   font-weight: 400;
+   margin-bottom: 26px;
+}
+
+.world-title {
+   color: #fff;
+   margin-bottom: 2px;
+}
+.world-subtitle {
+   color: #fff;
+   text-align: center;
+}
+.world-link {
+   color: $color_blue;
+   text-transform: uppercase;
+   position: absolute;
+   bottom: 45px;
+   left: 42%;
+   // left: 561px;
+   &:hover {
+      text-decoration: underline;
+      color: $color_blue;
+   }
+}
