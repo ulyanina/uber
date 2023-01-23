@@ -1,3 +1,15 @@
+@import "libs/bootstrap-reboot.min";
+@import "libs/bootstrap-grid.min";
+@import "libs/iconfont";
+@import "libs/fonts";
+
+* {
+   font-family: Roboto, sans-serif;
+}
+.wrapper {
+   width: 100%;
+   overflow: hidden;
+}
 @import "base/variables";
 @import "blocks/header";
 @import "blocks/promo";
@@ -7,13 +19,4 @@
 @import "blocks/require";
 @import "blocks/world";
 @import "blocks/footer";
-
-* {
-   font-family: Roboto, sans-serif;
-}
-.wrapper {
-   width: 100%;
-   overflow: hidden;
-}
-
 @import "base/media";

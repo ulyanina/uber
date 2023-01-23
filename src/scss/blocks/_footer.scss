@@ -93,3 +93,13 @@
       color: $color_blue;
    }
 }
+.footer_mobile {
+   display: flex;
+   justify-content: flex-end;
+   & .footer-right-links {
+      border-radius: 4px;
+      width: 93px;
+      height: 27px;
+      margin-right: 5px;
+   }
+}
